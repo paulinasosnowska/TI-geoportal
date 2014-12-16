@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<div id="zdjecie"><img src="naglowek.jpg">
+  <title>Geoportal miasta Żagań</title>
+  <link rel="stylesheet" href="stylsheet.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>			
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <link type="text/css"; rel="stylesheet"; href="stylesheet.css">
+  <meta charset = "UTF-8">
+</head>
+<body background="4.jpg">
+<body>
+
+  	<div id="map"></div>
+  	<div class="MENU_GLOWNE">
+  	<ol class="dodawanie_markerow" onclick="isInAddMarkerMode=true">
+			Dodaj swój marker
+	</ol>
+	<ol id="usuwanie_markerow" onclick="removeMarker()">
+			Usuń wszystkie markery
+	</ol>
+	<ol id"dodawanie_notatki" onclick="isInAddAnnotationMode=true">
+			Dodawanie notatki
+    </ol>
+	<ol id="usuwanie_notatki" onclick="removeAnnotation()">
+			Usuwanie notatki
+    </ol>
+    
+    <ol id="okrag">
+    	Okrąg o promieniu: <input id = "promien" type="text">
+    </ol>
+    
+    <ol id="ortofotoAdd">Ortofotomapa
+    </ol>
+     <ol id="budynkiAdd">Warstwa - budynki
+    </ol>
+     <ol id="wmsRemove">Usuń warstwy
+    </ol>
+	<ol id="przywroc" onclick="revertRange()">
+			Przywróć zasięg
+    </ol>
+  </ol>
+  	</div>
+ 	<script src="jquery-1.11.1.js"></script>
+    <script src="sktypt.js"></script>
+</body>
+
+</html>

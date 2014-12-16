@@ -1,0 +1,29 @@
+#zdjecie {
+	float: left;
+	left: 2%;
+	position:absolute;
+}
+#map { 
+	height: 500px; 
+	width: 77%;
+	left: 20%;
+	border: 3px solid black;
+	border-radius: 8px;
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+.MENU_GLOWNE {
+	font-family: Times, sans-serif;
+	font-weight:bold;
+	background:#4C6472;
+	border: 2px solid black;
+	border-radius: 8px;
+	color: #D1D1D1;
+	display: block;
+	font-size: 21px;
+	padding: 2px 2px 2px 1px;
+	text-align: center;
+	width:270px;
+	margin-top: 1%;
+}
